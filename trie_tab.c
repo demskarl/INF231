@@ -22,14 +22,14 @@ int main(){
 
     double tab[Taille];
 
-    printf("remplissafe du tableau...");
+    printf("remplissage du tableau...");
     printf("\n");
     for(size_t i=0;i<Taille;i++){
         scanf("%lf",&tab[i]);
     }
 
     if(is_trie_tab(tab,Taille))
-        printf("le tableau est pas trié");
+        printf("le tableau est pas trié\n");
     else
         printf("le tableau n'est pas trié");
     
